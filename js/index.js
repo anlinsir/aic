@@ -121,6 +121,23 @@ var headerUl = $('#headerUl') ,
 	]
 	; 
  
+$(par3Ul).height(allHeight*0.5)
+
+
+window.onscroll = function(){
+		console.log('ghug')
+
+	if((document.documentElement.scrollTop >= (document.documentElement.clientHeight || document.body.offsetHeight))   || document.body.scrollTop >= (document.documentElement.clientHeight || document.body.offsetHeight)){
+		console.log('ghug')
+		document.getElementsByTagName('header')[0].style.background ='#0e3368'
+		document.getElementsByClassName('fixW')[0].style.background ='#0e3368'
+	}else{
+		document.getElementsByTagName('header')[0].style.background ='transparent'
+		document.getElementsByClassName('fixW')[0].style.background ='transparent'
+		
+
+	}
+}
 
 for(var i in par3data){
 
@@ -149,7 +166,7 @@ for(var i in rouziUlData){
 }
 
 
-alert(allHeight)
+
 
 
 

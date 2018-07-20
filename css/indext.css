@@ -1,4 +1,4 @@
-.fixW { width: 100%; background-color: #0e3368; position: fixed; top: 0; z-index: 10; }
+.fixW { width: 100%; background-color: transparent; position: fixed; top: 0; z-index: 10;    height: 80px; }
 .fixW > .fix { height: 80px; }
 .fixW > .fix > header { height: 80px; }
 .fixW > .fix > header img { width: 90px; transform: translateY(12px); }
@@ -7,9 +7,9 @@
 .fixW > .fix > header > .btns { width: 270px; height: 85px; display: flex; justify-content: space-between; line-height: 85px; }
 .fixW > .fix > header > .btns > button { color: #1ac8f3; border: 2px solid; margin-top: 20px; padding: 0 25px; height: 40px; border-radius: 5px; }
 
-.Warp1 { margin-top: 85px; background-image: url("../img/warp1bg.png"); background-position: center; }
+.Warp1 {  background-image: url("../img/warp1bg.png"); background-position: center; }
 .Warp1 .HeaderWarp { height: 85px; }
-.Warp1 .HeaderWarp > .Weinscontent { width: 830px; height: 420px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; text-align: center; display: inline-block; }
+.Warp1 .HeaderWarp > .Weinscontent { width: 830px; height: 420px; position: absolute; top: 30px; left: 0; right: 0; bottom: 0; margin: auto; text-align: center; display: inline-block; }
 .Warp1 .HeaderWarp > .Weinscontent > p { font-size: 46px; color: #07a8e4; font-weight: lighter; margin-bottom: 105px; }
 .Warp1 .HeaderWarp > .Weinscontent > p > span { font-weight: normal; }
 .Warp1 .HeaderWarp > .Weinscontent > .times { width: 565px; display: inline-block; height: 100px; margin-bottom: 83px; display: flex; margin-left: 135px; justify-content: space-between; }
